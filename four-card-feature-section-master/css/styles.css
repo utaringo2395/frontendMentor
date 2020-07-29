@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #412d52;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #412d52;
+    padding-top: 3%;
+}
+
+p.first-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(165, 165, 165);
+    padding-top: 3%;
+}
+
+
+/*CARD BOX*/
+
+.boxes {
+    padding-top: 0;
+}
+
+.box {
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 25px -6px rgba(95, 97, 104, 0.3);
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #412d52;
+    font-weight: 500;
+}
+
+.text-box {
+    font-size: .7rem;
+    font-weight: 300;
+    line-height: 2;
+    color: rgb(165, 165, 165);
+    height: 100%;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.text-box-color1 {
+    border-top: 4px solid #00c7cb;
+}
+
+.text-box-color2 {
+    border-top: 4px solid #e10069;
+}
+
+.text-box-color3 {
+    border-top: 4px solid #ffc506;
+}
+
+.text-box-color4 {
+    border-top: 4px solid #0078b8;
+}
+
+
+span.clear {
+    clear: left;
+    display: block;
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen (max-width: 375px) {
+    h1, h2 {
+        font-size: .5rem;
+    }
+}
