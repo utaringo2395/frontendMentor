@@ -1,0 +1,173 @@
+
+/*LANDING*/
+#landing {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(../images/bg-hero-desktop.svg);
+    height: 100vh;
+    color: black;
+}
+
+.navbar {
+    padding: 1rem 2.5% 0;
+}
+
+.brand-logo {
+    width: 7.5em;
+    padding: 5% 0;
+}
+
+.btn-style {
+    background-color: white;
+    width: 11em;
+    padding: .7em 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .7rem;
+    border-radius: 100px;
+    box-shadow: 1px 2px 9px 1px rgba(0, 0, 0, 0.1);
+}
+
+.landing-items {
+    height: 80vh;
+    padding: 0 3% ;
+}
+
+.title-landing {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.5;
+    padding: 15% 0 0;
+}
+
+.text-landing {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 3% 0 0;
+}
+
+.btn-action {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 20em;
+    padding: 15px;
+    margin: 5% 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    border-radius: 100px;
+    box-shadow: 4px 6px 9px 4px rgba(0, 0, 0, 0.05);
+    
+}
+
+.img-landing {
+    width: 90%;
+    padding-top: 5%;
+}
+
+
+
+/*FEATURES*/
+#features {
+    padding: 10% 0 5%;
+}
+
+.box-features{
+    background-color:white;
+    padding: 2% 3%;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 1px 1px 8px 7px rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 2rem 9% 0;
+}
+
+.text-features {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+    font-size: 1rem;
+    padding: 0 9% 2rem;
+    
+}
+
+.features-img{
+    width: 80%;
+    padding: 15% 0 15%;
+}
+
+/*ACTION*/
+#action {
+    padding: 0 5%;
+}
+
+.call-action {
+    position: relative;
+    top: 4rem;
+    background-color: white;
+    width: 40rem;
+    padding: 3rem 0 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 7px rgba(0, 0, 0, 0.05);
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: black;
+    padding: 0 10px 5px;
+}
+
+.btn-action2 {
+    width: 20em;
+}
+
+/*FOOTER*/
+#footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 8rem 4% 10%;
+}
+
+.text-footer {
+    font-size: .9rem;
+}
+
+.footer-logo {
+    width: 60%;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+.address {
+    padding-right: 5%;
+}
+
+.icon {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+
+.about-text {
+    padding: 0 3%;
+}
+
+.contact-icon {
+    width: 2rem;
+    margin: 3px 10px;
+}
+
+.copyright {
+    font-size: .7rem;
+}
+
+
