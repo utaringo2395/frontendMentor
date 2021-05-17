@@ -1,3 +1,12 @@
+// abstracts
+@import "./variables.scss";
+
+// base
+@import "./base/typography";
+
+// pages
+@import "./pages/Landing.module.scss";
+
 .App {
   text-align: center;
 }
