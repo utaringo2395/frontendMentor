@@ -1,0 +1,79 @@
+/*abstracts*/
+/*base*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap");
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+/*components*/
+.card {
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.07);
+  height: 100%;
+}
+.card .cardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card .cardHeader .cardImg {
+  border-radius: 100px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  height: 40px;
+  width: 40px;
+}
+.card .cardHeader .user {
+  margin-left: 1rem;
+}
+.card .cardHeader .user .userName {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.card .cardHeader .user .userLabel {
+  margin-bottom: 0;
+  opacity: 50%;
+  font-size: 0.85rem;
+}
+.card .cardBody .title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+.card .cardBody .body {
+  font-weight: 400;
+  font-size: 0.85rem;
+  opacity: 70%;
+  margin-bottom: 0;
+}
+
+.color1 {
+  background-color: #733fc8;
+  color: white;
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 80% 0%;
+}
+
+.color2 {
+  background-color: #49556b;
+  color: white;
+}
+
+.color3 {
+  background-color: #18202d;
+  color: white;
+}
+
+.color4 {
+  background-color: white;
+  color: #181f2d;
+}
+
+body {
+  background-color: #edf2f8;
+}
+
+/*# sourceMappingURL=main.css.map */
