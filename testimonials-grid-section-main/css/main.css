@@ -72,6 +72,11 @@ body {
   color: #181f2d;
 }
 
+@media (max-width: 991.98px) {
+  .smallMargin {
+    margin-top: 1.5rem;
+  }
+}
 body {
   background-color: #edf2f8;
 }
