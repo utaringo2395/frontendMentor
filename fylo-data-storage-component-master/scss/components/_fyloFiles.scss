@@ -1,0 +1,39 @@
+.fyloFiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 35px;
+
+    width: 350px;
+    border-radius: 5px 100px 10px 10px;
+    background: $dark;
+    padding: 30px;
+    @media (max-width: 990px) {
+        width: 100%;
+    }
+
+    .brandWrap {
+        height: 40px;
+        width: auto;
+    }
+
+    .actions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        .btnAction {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            border-radius: 10px;
+
+            background: $verydark;
+        }
+    }
+}

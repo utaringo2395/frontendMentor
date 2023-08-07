@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.fyloFiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 35px;
+  width: 350px;
+  border-radius: 5px 100px 10px 10px;
+  background: hsl(228, 56%, 26%);
+  padding: 30px;
+}
+@media (max-width: 990px) {
+  .fyloFiles {
+    width: 100%;
+  }
+}
+.fyloFiles .brandWrap {
+  height: 40px;
+  width: auto;
+}
+.fyloFiles .actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.fyloFiles .actions .btnAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background: hsl(229, 57%, 11%);
+}
+
+.fyloStorage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 540px;
+  border-radius: 10px;
+  background: hsl(228, 56%, 26%);
+  padding: 30px;
+  position: relative;
+}
+@media (max-width: 990px) {
+  .fyloStorage {
+    width: 100%;
+  }
+}
+.fyloStorage .badgeStorage {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  top: -40px;
+  right: 30px;
+}
+@media (max-width: 990px) {
+  .fyloStorage .badgeStorage {
+    top: 130px;
+    left: 0;
+    right: 0;
+  }
+}
+.fyloStorage .badgeStorage .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 8px 25px;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  font-family: "Raleway";
+}
+@media (max-width: 990px) {
+  .fyloStorage .badgeStorage .info {
+    margin: 0 auto;
+    border-bottom-right-radius: 10px;
+  }
+}
+.fyloStorage .badgeStorage .info .num {
+  color: hsl(228, 56%, 26%);
+  font-size: 35px;
+  font-weight: 700;
+}
+.fyloStorage .badgeStorage .info .text {
+  color: hsl(229, 7%, 55%);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.fyloStorage .badgeStorage .corner {
+  width: 22px;
+  height: 22px;
+  border-top: 22px solid #fff;
+  border-left: 22px solid transparent;
+  margin-left: auto;
+}
+@media (max-width: 990px) {
+  .fyloStorage .badgeStorage .corner {
+    display: none;
+  }
+}
+.fyloStorage p {
+  color: hsl(243, 100%, 93%);
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 400;
+}
+.fyloStorage p span {
+  font-weight: 700;
+}
+@media (max-width: 990px) {
+  .fyloStorage p {
+    text-align: center;
+  }
+}
+.fyloStorage .progress {
+  border-radius: 50px;
+  background-color: hsl(229, 57%, 11%);
+  border: 1px solid hsl(229, 57%, 11%);
+}
+.fyloStorage .progress .progress-bar {
+  background: linear-gradient(90deg, #FFA399 0%, #FF4D97 100%);
+  border-radius: 50px;
+  position: relative;
+}
+.fyloStorage .progress .progress-bar .endPoint {
+  position: absolute;
+  right: 2.5px;
+  top: 1.5px;
+  width: 11px;
+  height: 11px;
+  border-radius: 100px;
+  background: white;
+}
+.fyloStorage .ends {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.fyloStorage .ends p {
+  color: hsl(243, 100%, 93%);
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.fyloStorage .ends p span {
+  font-weight: 700;
+}
+
+body {
+  background: hsl(229, 57%, 11%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+main .wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: end;
+  justify-content: center;
+  gap: 30px;
+}
+@media (max-width: 600px) {
+  main .wrapper {
+    padding: 0 30px;
+  }
+}
+
+.bgCurve {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=main.css.map */
